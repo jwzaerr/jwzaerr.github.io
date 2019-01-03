@@ -16,3 +16,10 @@ div {
 	min-width: 75%;
 }
 
+h1 {
+	font-size:100px;
+	font-color: red;
+	border: 2px solid black;
+}
+
+
