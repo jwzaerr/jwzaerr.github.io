@@ -8,7 +8,7 @@ html, body {
 div {
 	padding-right: 30px;
 	padding-left: 30px;
-	width: 50%;
+	width: 100%;
 }
 
 .main {
@@ -16,9 +16,9 @@ div {
 	min-width: 75%;
 }
 
-h2 {
+h1 {
 	font-size:100px;
-	font-color: red;
+	color: red;
 	border: 2px solid black;
 }
 
