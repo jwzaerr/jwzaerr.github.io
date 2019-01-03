@@ -1,0 +1,25 @@
+html, body {
+	font-family: sans-serif;
+	magin:0;
+	width: 50%;
+	height: 100%;
+}
+
+div {
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 50%;
+}
+
+.main {
+	padding left: 40px;
+	min-width: 75%;
+}
+
+h1 {
+	font-size:100px;
+	font-color: red;
+	border: 2px solid black;
+}
+
+
