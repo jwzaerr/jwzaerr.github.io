@@ -1,6 +1,6 @@
 html, body {
 	font-family: sans-serif;
-	magin:0;
+	margin:0;
 	width: 50%;
 	height: 100%;
 }
@@ -12,7 +12,7 @@ div {
 }
 
 .main {
-	padding left: 40px;
+	padding-left: 40px;
 	min-width: 75%;
 }
 
