@@ -1,27 +1,21 @@
-
-
-header .row {
-	display: flex;
-	align-items: center;
-}
-
-header nav {
-	display: flex;
-	justify-content: flex-end;
-}
-
 .jumbotron {
-	background-image: url(images/burning.jpg);
+	background-image: url(images/flowers.jpg);
 	background-size: cover;
 	height: 700px;
+	
+	
 }
 
-header p {
-  padding: 0 20px;
-  margin: 0;
+.row {
+	font-size: 30px;
+	color: #fff;
+}
+:link {
+
+	color: #fff;
+
 }
 
-.footer {
-	display: flex;	
-	justify-content: flex-end;
+:visited {
+	color: #fff;
 }
