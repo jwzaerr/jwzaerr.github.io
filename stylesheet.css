@@ -1,5 +1,5 @@
 .jumbotron {
-	background-image: url(images/flowers.jpg);
+	background-image: url(/images/flowers.jpg);
 	background-size: cover;
 	height: 700px;
 	
