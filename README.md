@@ -1,3 +1,3 @@
-# jwzaerr.github.io
+# humbleplot.com
 
 Website under construction
