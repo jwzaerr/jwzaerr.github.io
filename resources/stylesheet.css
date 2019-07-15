@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  
+
 }
 
 html body {
@@ -120,6 +120,9 @@ li {
 
 @media only screen and (max-width: 400px) {
 
+.quote {
+  display: none;
+}
 
 
 }
