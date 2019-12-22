@@ -41,11 +41,7 @@ picture {
   /* top: 0px; */
 }
 
-.recipe-img {
-  display: block;
-  width: 100%;
-  /* height: auto; */
-}
+
 
 .img-content {
   display: flex;
@@ -53,6 +49,12 @@ picture {
   margin: 0 auto;
   overflow: hidden;
   max-width: 100%;  /* added 12-22-2019 */
+}
+
+.recipe-img {
+  display: block;
+  width: 100%;
+  /* height: auto; */
 }
 
 .info {
