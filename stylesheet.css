@@ -15,13 +15,13 @@ html {
   /* color: #E6CAF3; */
   color: #FFF700;
   width: 100%;
-  height: 100%;
+  height: auto;
 
 }
 
-/* body {
-  height: 100%;  removed 12 -22-2019
-} */
+body {
+  height: 100%;  /* 12 -22-2019 */
+ }
 
 h1 {
   font-size: 9em;
@@ -36,7 +36,7 @@ picture {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  /* height: auto;   /* added 12-22-2019 */ */
+  height: auto;   /* added 12-22-2019 */
   /* position: absolute; */
   /* top: 0px; */
 }
