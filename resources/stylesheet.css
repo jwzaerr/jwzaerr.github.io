@@ -99,12 +99,12 @@ picture {
 
   h1 {
     font-size: 4em;
-    color: #E6CAF3;
+    color: #FFF700;  /* #E6CAF3; */
   }
 
   h2 {
     font-size: 2em;
-    color: #E6CAF3;
+    color: #FFF700;  /* #E6CAF3; */
   }
 
 }
