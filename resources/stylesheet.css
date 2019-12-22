@@ -50,12 +50,13 @@ picture {
   overflow: hidden;
   max-width: 100%;  /* added 12-22-2019 */
 }
-
+/*
 .recipe-img {
   display: block;
   width: 100%;
-  /* height: auto; */
-}
+   height: auto; 
+} */
+
 
 .info {
   display: flex;
