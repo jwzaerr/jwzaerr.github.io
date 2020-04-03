@@ -10,10 +10,11 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 700;
-  background-color: #F7F7F7;  /* or #EAEAEA */
+  background-color: #E6CAF3;  /* or #EAEAEA */
   /* color: #E7B8FD; */
   /* color: #E6CAF3; */
-  color: #FFF700;
+  /* F7F7F7 <------This was the original background color*/
+  color: #E6CAF3;
   width: 100%;
   height: auto;
 
@@ -21,7 +22,7 @@ html {
 
 body {
   height: 100%;
- }
+}
 
 h1 {
   font-size: 9em;
@@ -29,7 +30,34 @@ h1 {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 4em;
+}
+
+a {
+  color: #E6CAF3;
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #E6CAF3;
+}
+
+a:visited {
+  color: #E6CAF3;
+}
+
+a:hover {
+  color: #FFF700;
+}
+
+a:active {
+  color: #FFF700;
+}
+
+li {
+  font-size: 9em;
+  font-weight: 700;
 }
 
 picture {
@@ -45,6 +73,7 @@ picture {
   justify-content: center;
   margin: 0 auto;
   overflow: hidden;
+  /* object-fit: contain; */
 }
 
 /* .recipe-img {
@@ -84,6 +113,8 @@ picture {
 
 
 
+
+
 /* MOBILE STYLES */
 
 @media only screen and (max-width: 767px) {
@@ -96,18 +127,26 @@ picture {
     margin-bottom: 20px;
   }
 
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 480px;
+  }
+
   .link-wrapper {
     padding: 0px 30px;
+    /* max-width: 480px; */
   }
 
   h1 {
     font-size: 4em;
-    color: #FFF700;  /* #E6CAF3; */
+    /* color: #FFF700;  /* #E6CAF3; */ */
   }
 
   h2 {
     font-size: 2em;
-    color: #FFF700;  /* #E6CAF3; */
+    /* color: #FFF700;  /* #E6CAF3; */ */
   }
 
 }
@@ -124,12 +163,12 @@ picture {
 
   h1 {
     font-size: 8em;
-    color: #E6CAF3;
+    color: #FFF700;
   }
 
   h2 {
     font-size: 3em;
-    color: #E6CAF3;
+    color: #FFF700;
   }
 
 }
