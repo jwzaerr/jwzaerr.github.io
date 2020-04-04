@@ -33,6 +33,7 @@ h2 {
   font-size: 3em;
 }
 
+
 a {
   color: #444444;
   outline: none;
@@ -58,8 +59,8 @@ a:active {
 li {
   font-size: 3em;
   font-weight: 400;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 picture {
