@@ -31,16 +31,21 @@ h1 {
 
 h2 {
   font-size: 3em;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #444444;
+  margin: 30px 0px;
+  border-bottom: 3px solid #444444;
   font-weight: 400;
 }
 
 h3 {
+  font-size: 3em;
+  margin: 30px 0px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+h4 {
   font-size: 2em;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 30px 0px;
   font-weight: 400;
 }
 
@@ -69,13 +74,14 @@ a:active {
 li {
   font-size: 3em;
   font-weight: 400;
+  margin-bottom: 25px;
 }
 
 p {
   font-size: 3em;
   font-weight: 400;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 picture {
@@ -163,32 +169,34 @@ picture {
 
   h1 {
     font-size: 2em;
-    color: #444444;  /* #E6CAF3; */
+    /* color: #444444;  /* #E6CAF3; */ */
     margin-bottom: 20px;
   }
 
   h2 {
     font-size: 2em;
-    color: #444444;  /* #E6CAF3; */
+    /* color: #444444;  /* #E6CAF3; */
     border-bottom: 2px solid #444444;
   }
 
   h3 {
-    font-size: 1em;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 2em;
 
+    text-decoration: underline;
+  }
+
+  h4 {
+    font-size: 1em;
+    
+    font-weight: 400;
   }
 
   li {
     font-size: 2em;
-    color: #444444;  /* #E6CAF3; */
   }
 
   p {
     font-size: 2em;
-    color: #444444;  /* #E6CAF3; */
-
   }
 
 }
@@ -200,35 +208,36 @@ picture {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
   .info {
-    top: 40px;
-    /* ^^^Removed 560px from 'top' position for this recipe_menu_stylesheet  */
+    top: 50px;
+    /* ^^^Removed 550px from 'top' position for this recipe_menu_stylesheet  */
   }
 
   h1 {
-    font-size: 8em;
-    color: black;
+    font-size: 3em;
+
   }
 
   h2 {
     font-size: 3em;
-    color: black;
   }
 
   h3 {
+    font-size: 3em;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  h4 {
     font-size: 2em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid black;
+    font-weight: 400;
   }
 
   li {
     font-size: 3em;
-    color: black;  /* #E6CAF3; */
   }
 
   p {
     font-size: 3em;
-    color: black;  /* #E6CAF3; */
   }
 
 }

@@ -59,8 +59,8 @@ a:active {
 li {
   font-size: 3em;
   font-weight: 400;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 picture {
@@ -124,8 +124,8 @@ picture {
 @media only screen and (max-width: 767px) {
 
   .info {
-    top: 80px;
-    /* ^^^Removed 300px from 'top' position for this recipe_menu_stylesheet  */
+    top: 40px;
+    /* ^^^Removed 340px from 'top' position for this recipe_menu_stylesheet  */
   }
 
   .title {
@@ -145,17 +145,17 @@ picture {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2em;
     /* color: #FFF700;  /* #E6CAF3; */ */
   }
 
   h2 {
-    font-size: 3em;
+    font-size: 2em;
     /* color: #FFF700;  /* #E6CAF3; */ */
   }
 
   li {
-    font-size: 3em;
+    font-size: 2em;
     /* color: #FFF700;  /* #E6CAF3; */ */
   }
 
@@ -168,22 +168,22 @@ picture {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
   .info {
-    top: 100px;
+    top: 50px;
     /* ^^^Removed 500px from 'top' position for this recipe_menu_stylesheet  */
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 3em;
     /* color: #FFF700; */
   }
 
   h2 {
-    font-size: 4em;
+    font-size: 3em;
     /* color: #FFF700; */
   }
 
   li {
-    font-size: 4em;
+    font-size: 3em;
     /* color: #FFF700;  /* #E6CAF3; */ */
   }
 
