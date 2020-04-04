@@ -26,7 +26,7 @@ body {
 h1 {
   font-size: 3em;
   font-weight: 400;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */   /* evens it up with mobile */
 }
 
 h2 {
