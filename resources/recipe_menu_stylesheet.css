@@ -106,7 +106,7 @@ picture {
 .title {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .link-wrapper {
@@ -128,9 +128,6 @@ picture {
     /* ^^^Removed 340px from 'top' position for this recipe_menu_stylesheet  */
   }
 
-  .title {
-    margin-bottom: 20px;
-  }
 
   .info-wrapper {
     display: flex;

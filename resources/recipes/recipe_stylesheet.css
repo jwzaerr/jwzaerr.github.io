@@ -16,7 +16,6 @@ html {
   color: #444444;
   width: 100%;
   height: auto;
-
 }
 
 body {
@@ -117,8 +116,6 @@ picture {
   /* ^^^Removed 500px from 'top' position for this recipe_menu_stylesheet  */
 }
 
-
-
 .info-wrapper {
   display: flex;
   flex-direction: column;
@@ -129,7 +126,6 @@ picture {
 .title {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
 }
 
 .link-wrapper {
@@ -149,10 +145,6 @@ picture {
   .info {
     top: 40px;
     /* ^^^Removed 340px from 'top' position for this recipe_menu_stylesheet  */
-  }
-
-  .title {
-    margin-bottom: 20px;
   }
 
   .info-wrapper {
@@ -187,7 +179,7 @@ picture {
 
   h4 {
     font-size: 1em;
-    
+
     font-weight: 400;
   }
 
