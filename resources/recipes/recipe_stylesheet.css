@@ -39,13 +39,30 @@ h3 {
   font-size: 3em;
   margin: 30px 0px;
   font-weight: 400;
-  text-decoration: underline;
+  border-bottom: 3px solid #444444;
+  /* text-decoration: underline; */
 }
 
 h4 {
   font-size: 2em;
   margin: 30px 0px;
   font-weight: 400;
+}
+
+li {
+  font-size: 3em;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+p {
+  font-size: 3em;
+  font-weight: 400;
+  margin: 30px 0px;
 }
 
 a {
@@ -68,19 +85,6 @@ a:hover {
 
 a:active {
   color: #FFF700;
-}
-
-li {
-  font-size: 3em;
-  font-weight: 400;
-  margin-bottom: 25px;
-}
-
-p {
-  font-size: 3em;
-  font-weight: 400;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 picture {
@@ -113,7 +117,6 @@ picture {
   z-index: 1;
   position: absolute;
   top: 50px;
-  /* ^^^Removed 500px from 'top' position for this recipe_menu_stylesheet  */
 }
 
 .info-wrapper {
@@ -144,7 +147,6 @@ picture {
 
   .info {
     top: 40px;
-    /* ^^^Removed 340px from 'top' position for this recipe_menu_stylesheet  */
   }
 
   .info-wrapper {
@@ -161,25 +163,21 @@ picture {
 
   h1 {
     font-size: 2em;
-    /* color: #444444;  /* #E6CAF3; */ */
     margin-bottom: 20px;
   }
 
   h2 {
     font-size: 2em;
-    /* color: #444444;  /* #E6CAF3; */
     border-bottom: 2px solid #444444;
   }
 
   h3 {
     font-size: 2em;
-
-    text-decoration: underline;
+    border-bottom: 2px solid #444444;
   }
 
   h4 {
     font-size: 1em;
-
     font-weight: 400;
   }
 
@@ -201,12 +199,10 @@ picture {
 
   .info {
     top: 50px;
-    /* ^^^Removed 550px from 'top' position for this recipe_menu_stylesheet  */
   }
 
   h1 {
     font-size: 3em;
-
   }
 
   h2 {
@@ -216,7 +212,6 @@ picture {
   h3 {
     font-size: 3em;
     font-weight: 400;
-    text-decoration: underline;
   }
 
   h4 {

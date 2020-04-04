@@ -14,9 +14,10 @@ html {
   /* color: #E7B8FD; */
   /* color: #E6CAF3; */
   /* F7F7F7 <------This was the original background color*/
-  color: #E6CAF3;
+  color: #444444;
   width: 100%;
   height: auto;
+
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 h1 {
   font-size: 9em;
   font-weight: 400;
-
+  /* mix-blend-mode: screen; */
 }
 
 h2 {
@@ -35,17 +36,17 @@ h2 {
 }
 
 a {
-  color: #E6CAF3;
+  color: #444444;
   outline: none;
   text-decoration: none;
 }
 
 a:link {
-  color: #E6CAF3;
+  color: #444444;
 }
 
 a:visited {
-  color: #E6CAF3;
+  color: #444444;
 }
 
 a:hover {
@@ -91,26 +92,29 @@ picture {
   z-index: 1;
   position: absolute;
   top: 550px;
+  /* background-color: #E6CAF3; */
 }
 
 .info-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 768px;
+  max-width: 960px;
 }
 
 .title {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
-
+  background-color: #E6CAF3;
+  mix-blend-mode: multiply;
 }
 
 .link-wrapper {
   display: flex;
   justify-content: space-between;
   padding: 0px 50px;
+  background-color: #E6CAF3;
 }
 
 
@@ -165,12 +169,12 @@ picture {
 
   h1 {
     font-size: 8em;
-    color: #E6CAF3;
+    /* color: #E6CAF3; */
   }
 
   h2 {
     font-size: 3em;
-    color: #E6CAF3;
+    /* color: #E6CAF3; */
   }
 
 }
