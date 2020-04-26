@@ -10,6 +10,7 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
+  line-height: 1.25;
   background-color: #E6CAF3;  /* or #EAEAEA */
   /* color: #E7B8FD; */
   /* color: #E6CAF3; */
@@ -37,7 +38,7 @@ h2 {
 
 h3 {
   font-size: 3em;
-  margin: 30px 0px;
+  margin: 60px 0px 30px 0px;
   font-weight: 400;
   border-bottom: 3px solid #444444;
   /* text-decoration: underline; */
@@ -185,6 +186,10 @@ picture {
     font-weight: 400;
   }
 
+  .underline {
+    border-bottom: 2px solid #444444;
+  }
+
   li {
     font-size: 2em;
   }
@@ -221,6 +226,10 @@ picture {
   h4 {
     font-size: 2em;
     font-weight: 400;
+  }
+
+  .underline {
+    border-bottom: 2px solid #444444;
   }
 
   li {
