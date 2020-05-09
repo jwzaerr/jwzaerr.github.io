@@ -8,7 +8,7 @@
 
 html {
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 400;
   line-height: 1.25;
   background-color: #E6CAF3;  /* or #EAEAEA */
@@ -32,7 +32,7 @@ h1 {
 h2 {
   font-size: 3em;
   margin: 30px 0px;
-  border-bottom: 3px solid #444444;
+  border-bottom: 2px solid #444444;
   font-weight: 400;
 }
 
@@ -40,18 +40,22 @@ h3 {
   font-size: 3em;
   margin: 60px 0px 30px 0px;
   font-weight: 400;
-  border-bottom: 3px solid #444444;
+  border-bottom: 2px solid #444444;
   /* text-decoration: underline; */
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 2.25em;
   margin: 30px 0px;
   font-weight: 400;
 }
 
 .underline {
-  border-bottom: 3px solid #444444;
+  border-bottom: 2px solid #444444;
+}
+
+.underline-inline {
+  border-bottom: 1px solid #444444;
 }
 
 li {
@@ -182,12 +186,16 @@ picture {
   }
 
   h4 {
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: 400;
   }
 
   .underline {
     border-bottom: 2px solid #444444;
+  }
+
+  .underline-inline {
+    border-bottom: 1px solid #444444;
   }
 
   li {
@@ -224,12 +232,16 @@ picture {
   }
 
   h4 {
-    font-size: 2em;
+    font-size: 2.25em;
     font-weight: 400;
   }
 
   .underline {
     border-bottom: 2px solid #444444;
+  }
+
+  .underline-inline {
+    border-bottom: 1px solid #444444;
   }
 
   li {
